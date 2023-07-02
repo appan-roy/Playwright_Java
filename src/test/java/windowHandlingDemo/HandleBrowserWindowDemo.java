@@ -23,7 +23,7 @@ public class HandleBrowserWindowDemo {
             });
 
             // capture pop up window url
-            System.out.println("Pop up window title : " + popup.url());
+            System.out.println("Pop up window url : " + popup.url());
 
             // close the popup window
             popup.close();
